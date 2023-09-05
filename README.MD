@@ -15,3 +15,4 @@
 # How to use this app
 
 - Simply install modules and request `http://localhost:3000/api/count` in browser, I have also created .http file for api calls so you can use that with vs code extension `REST`.
+- Since I defined `maxAge` in code it will automatically reset state on inactivity between 2 api for that period of time.
